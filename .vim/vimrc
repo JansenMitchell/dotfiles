@@ -7,8 +7,6 @@ set number " enables line numbers
 
 set hlsearch " highlights search results
 
-set tabstop=4 " set columns occupied by tab to 4
-
 set autoindent " indents a new line the same as the line just typed
 
 " workaround for https://github.com/vim/vim/issues/1671 (bracketed paste issue)
