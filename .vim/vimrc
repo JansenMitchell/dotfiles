@@ -28,6 +28,9 @@ set complete+=kspell
 au BufRead,BufNewFile *.md setlocal textwidth=80
 au BufRead,BufNewFile *.fountain setlocal textwidth=80
 
+" changes tab completion to operate similar to bash
+set wildmode=longest,list
+
 " vim-plug:
 call plug#begin('~/.vim/plugged')
 
