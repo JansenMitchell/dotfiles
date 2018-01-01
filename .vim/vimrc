@@ -21,15 +21,15 @@ endif
 autocmd BufRead,BufNewFile *.md setlocal spell
 autocmd BufRead,BufNewFile *.fountain setlocal spell
 
-" allows the use of ^N or ^P in insert mode for word completion
-set complete+=kspell
+set complete+=kspell " allows the use of ^N or ^P in insert mode for word completion
 
 " adds text wraps to following file types at 80 characters
 au BufRead,BufNewFile *.md setlocal textwidth=80
 au BufRead,BufNewFile *.fountain setlocal textwidth=80
 
-" changes tab completion to operate similar to bash
-set wildmode=longest,list
+set wildmode=longest,list " changes tab completion to operate similar to bash
+
+set history=200 " allows 200 commands to be recorded in command history
 
 " vim-plug:
 call plug#begin('~/.vim/plugged')
