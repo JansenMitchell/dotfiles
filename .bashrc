@@ -134,11 +134,6 @@ export HISTSIZE=1000
 alias l.='ls -d .* --color=auto'
 alias ll='ls -l --color=auto'
 
-# Custom prompt string
-PS1="\[\033[0;37m\]\u: \w $\[\033[0m\] "
-
-export PS1
-
 # Fixes sudden enabling of bracketed paste mode
 printf "\e[?2004l"
 
