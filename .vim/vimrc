@@ -27,8 +27,6 @@ set complete+=kspell " allows the use of ^N or ^P in insert mode for word comple
 au BufRead,BufNewFile *.md setlocal textwidth=80
 au BufRead,BufNewFile *.fountain setlocal textwidth=80
 
-set wildmode=longest,list " changes tab completion to operate similar to bash
-
 set history=200 " allows 200 commands to be recorded in command history
 
 " vim-plug:
