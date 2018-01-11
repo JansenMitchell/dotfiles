@@ -32,7 +32,7 @@ set history=200 " allows 200 commands to be recorded in command history
 " vim-plug:
 call plug#begin('~/.vim/plugged')
 
-" a simple Vimscript test framework
-Plug 'junegunn/vader.vim'
+Plug 'junegunn/vader.vim' " a simple Vimscript test framework
+Plug 'tpope/vim-surround' " provides mappings to easily delete, change, add paired suroundings
 
 call plug#end()
