@@ -37,6 +37,7 @@ Plug 'w0rp/ale'				" asynchronous lint engine
 Plug 'vim-airline/vim-airline'		" status/tabline for vim
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'		" shows a git diff in the gutter and stages/undoes hunks
+Plug 'ruby-formatter/rufo-vim'		" ruby formatter
 
 call plug#end()
 
@@ -44,3 +45,6 @@ let g:airline#extensions#ale#enabled = 1	" enables errors/warnings from ale in v
 let g:airline#extensions#tabline#enabled = 1	" disaplys all buffers when one tab is open
 
 set updatetime=250
+
+" Enable rufo (RUby FOrmat)
+let g:rufo_auto_formatting = 1
